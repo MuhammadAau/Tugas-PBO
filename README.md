@@ -10,4 +10,14 @@ Penjealasan Program pada contoh program 1, saya membuat daftar angka [1, 2, 3, 4
 
 2.) OOP didasarkan pada konsep objek, di mana suatu objek memiliki atribut (properti) dan metode (fungsi). Objek dapat berinteraksi satu sama lain melalui metode dan mewarisi properti dan metode dari kelas yang lebih umum. Pemrograman berorientasi objek bertujuan untuk mengorganisasi kode menjadi modul yang saling terkait dan memudahkan pengembangan aplikasi yang kompleks.
 
-Penjelasan Program pada contoh program 2, saya membuat kelas Calculator yang memiliki dua metode add dan subtract. Kita membuat objek calculator dengan angka 10 dan 5, dan kemudian memanggil metode add dan subtract pada objek tersebut.
+Penjelasan Program pada contoh program 2, Pada kode tersebut, terdapat sebuah kelas Calculator yang memiliki dua metode, yaitu add dan subtract. Metode add digunakan untuk melakukan penjumlahan antara dua angka, sedangkan metode subtract digunakan untuk melakukan pengurangan antara dua angka.
+
+Ketika sebuah objek Calculator dibuat dengan memanggil kelas tersebut, nilai num1 dan num2 akan disimpan di dalam objek sebagai atribut self.num1 dan self.num2. Pada saat pemanggilan metode add dan subtract, objek tersebut akan menggunakan nilai num1 dan num2 yang disimpan pada atributnya untuk melakukan perhitungan dan mengembalikan hasilnya.
+
+Kemudian, kita membuat sebuah objek calculator dengan memanggil kelas Calculator dan memberikan nilai 10 dan 5 sebagai argumen pada saat pembuatan objek. Setelah objek calculator dibuat, kita memanggil metode add dan subtract pada objek tersebut dengan menggunakan perintah calculator.add() dan calculator.subtract(). Hasil perhitungan akan dicetak ke layar menggunakan perintah print. Pada contoh tersebut, hasil dari calculator.add() adalah 15 dan hasil dari calculator.subtract() adalah 5.
+
+
+
+
+
+
